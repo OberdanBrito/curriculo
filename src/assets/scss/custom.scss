@@ -1,5 +1,6 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://unpkg.com/bs-brain@2.0.4/components/skills/skill-2/assets/css/skill-2.css");
 
 .text-indigo {
   color: $indigo-500;
@@ -10,5 +11,67 @@
 }
 
 .bg-social-media {
+  background-color: tint-color($indigo, 90%)
+}
+
+.border-indigo {
+  border: 1px solid red;
+}
+
+.w-10 {
+  width: 10% !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+.w-95 {
+  width: 95% !important;
+}
+
+.languages ul {
+  font-size: 80%;
+}
+
+.container small {
+  --bs-text-opacity: 1;
+  color: var(--bs-secondary-color) !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-blue-300 {
+  color: $blue-300
+}
+
+.progress-bar {
+  color: var(--bs-progress-bar-color);
   background-color: $indigo-100;
+}
+
+h4 {
+  color: $indigo-800;
+}
+
+h5 {
+  color: $indigo-600;
+}
+
+h6 {
+  color: $indigo-400;
 }
