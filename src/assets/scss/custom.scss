@@ -14,6 +14,10 @@
   background-color: tint-color($indigo, 90%)
 }
 
+.w-5 {
+  width: 5% !important;
+}
+
 .w-10 {
   width: 10% !important;
 }
@@ -62,7 +66,7 @@
 
 .hard-skill {
   background-color: $indigo-100;
-  font-size: 80%;
+  font-size: 70%;
   text-decoration: none;
 }
 
@@ -77,6 +81,11 @@
 
 h4 {
   color: $indigo-800;
+}
+
+h4 i {
+  color: $indigo-400;
+  margin-right: 0.45rem;
 }
 
 h5 {

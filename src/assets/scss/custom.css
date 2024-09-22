@@ -11858,6 +11858,10 @@ textarea.form-control-lg {
   background-color: #f0e7fe;
 }
 
+.w-5 {
+  width: 5% !important;
+}
+
 .w-10 {
   width: 10% !important;
 }
@@ -11906,7 +11910,7 @@ textarea.form-control-lg {
 
 .hard-skill {
   background-color: #e0cffc;
-  font-size: 80%;
+  font-size: 70%;
   text-decoration: none;
 }
 
@@ -11920,6 +11924,11 @@ textarea.form-control-lg {
 
 h4, .h4 {
   color: #290661;
+}
+
+h4 i, .h4 i {
+  color: #8540f5;
+  margin-right: 0.45rem;
 }
 
 h5, .h5 {
