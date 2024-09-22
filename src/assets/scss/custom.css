@@ -11858,10 +11858,6 @@ textarea.form-control-lg {
   background-color: #f0e7fe;
 }
 
-.border-indigo {
-  border: 1px solid red;
-}
-
 .w-10 {
   width: 10% !important;
 }
@@ -11906,6 +11902,20 @@ textarea.form-control-lg {
 .progress-bar {
   color: var(--bs-progress-bar-color);
   background-color: #e0cffc;
+}
+
+.hard-skill {
+  background-color: #e0cffc;
+  font-size: 80%;
+  text-decoration: none;
+}
+
+.text-expertize-paragraf {
+  min-height: 300px;
+}
+
+.text-expertize-paragraf p {
+  font-size: 88%;
 }
 
 h4, .h4 {

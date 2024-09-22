@@ -14,10 +14,6 @@
   background-color: tint-color($indigo, 90%)
 }
 
-.border-indigo {
-  border: 1px solid red;
-}
-
 .w-10 {
   width: 10% !important;
 }
@@ -62,6 +58,21 @@
 .progress-bar {
   color: var(--bs-progress-bar-color);
   background-color: $indigo-100;
+}
+
+.hard-skill {
+  background-color: $indigo-100;
+  font-size: 80%;
+  text-decoration: none;
+}
+
+
+.text-expertize-paragraf {
+  min-height: 300px
+}
+
+.text-expertize-paragraf p {
+  font-size: 88%
 }
 
 h4 {

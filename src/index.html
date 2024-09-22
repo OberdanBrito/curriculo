@@ -2,14 +2,21 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Currículo Oberdan Brito</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="assets/scss/custom.css" rel="stylesheet">
+    <style>
+        @media print {
+            body {
+                max-width: 1080px;
+            }
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar bg-body-tertiary shadow-sm">
-        <div class="container justify-content-start align-items-center gap-3">
+        <div class="container-sm justify-content-start align-items-center gap-3">
             <a class="navbar-brand" href="#">
                 <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
                 <a class="nav-link active" aria-current="page" href="#">Oberdan Brito</a>
@@ -18,16 +25,14 @@
         </div>
     </nav>
     <main>
-        <div class="navbar navbar-expand-lg bg-social-media shadow-sm mb-3">
-            <div class="container text-indigo-social-media justify-content-start align-items-center gap-4">
-                <a class="text-indigo-social-media text-decoration-none small" href="https://www.linkedin.com/in/oberdanbrito"><i class="bi bi-linkedin me-1"></i>oberdanbrito</a>
-                <a class="text-indigo-social-media text-decoration-none small" href="https://github.com/oberdanbrito"><i class="bi bi-github me-1"></i>oberdanbrito</a>
-                <a class="text-indigo-social-media text-decoration-none small" href="https://wakatime.com/@Oberdan"><i class="bi bi-github me-1"></i>wakatime.com/@Oberdan</a>
-                <a class="text-indigo-social-media text-decoration-none small" href="#"><i class="bi bi-discord me-1"></i>oberdanbrito7551</a>
-            </div>
+        <div class="container-sm text-indigo-social-media justify-content-start align-items-center gap-4 p-2 mb-2 rounded-bottom bg-social-media">
+            <a class="text-indigo-social-media text-decoration-none small" href="https://www.linkedin.com/in/oberdanbrito"><i class="bi bi-linkedin me-1"></i>oberdanbrito</a>
+            <a class="text-indigo-social-media text-decoration-none small" href="https://github.com/oberdanbrito"><i class="bi bi-github me-1"></i>oberdanbrito</a>
+            <a class="text-indigo-social-media text-decoration-none small" href="https://wakatime.com/@Oberdan"><i class="bi bi-github me-1"></i>wakatime.com/@Oberdan</a>
+            <a class="text-indigo-social-media text-decoration-none small" href="#"><i class="bi bi-discord me-1"></i>oberdanbrito7551</a>
         </div>
         <div class="container">
-            <div class="row mb-3">
+            <div class="row mb-3 border-bottom">
                 <div class="col-8 col-md-3 mb-3">
                     <div class="card">
                         <img src="assets/images/profile-pic.png" class="mx-auto d-block w-50 m-3 shadow-sm" alt="..." style="border: 1px solid #fff; border-radius: 50%">
@@ -36,6 +41,7 @@
                                 <li class="list-group-item"><small>Brasileiro</small></li>
                                 <li class="list-group-item"><small>Casado</small></li>
                                 <li class="list-group-item"><small>Natural de S. Bernardo do C. / SP</small></li>
+                                <li class="list-group-item"><small>17/02/1978 - 46 anos</small></li>
                             </ul>
                         </div>
                     </div>
@@ -43,27 +49,80 @@
                 <div class="col-8 col-md-9 mb-3">
                     <div class="row mb-3 border-bottom">
                         <h4><i class="bi bi-person-badge-fill me-1 text-muted"></i> Minha Experiência <span class="text-blue-300 fs-6">(Soft skills)</span></h4>
-                        <p class="m-3" style="text-align: justify">Atuou como ponto focal entre a equipe de negócios e desenvolvimento, traduzindo requisitos de negócio em especificações técnicas detalhadas para a equipe de desenvolvimento. Tenha em sua equipe um profissional dedicado a compreender as necessidades do seu negócio e a traduzi-las em soluções tecnológicas eficazes.</p>
+                        <p class="m-3" style="text-align: justify">Atuou como ponto focal entre a equipe de negócios e desenvolvimento, traduzindo requisitos de negócio em especificações técnicas detalhadas para a equipe de desenvolvimento. Tenha em sua equipe um profissional dedicado a compreender as necessidades do seu negócio, experiênte em resolver <strong class="text-primary">problemas técnicos</strong> e a traduzi-las em soluções tecnológicas eficazes.</p>
                     </div>
-                    <div class="row border-bottom">
-                        <h4><i class="bi bi-person-badge-fill me-1 text-muted"></i> Habilidades</h4>
+                    <div class="row">
+                        <h4><i class="bi bi-stars me-1 text-muted"></i> Habilidades</h4>
                         <p class="mb-3" style="text-align: justify">Sou desenvolvedor <strong class="text-success">Full Stack</strong> com mais de 15 anos de experiência em projetos desafiadores, utilizando tecnologias como <span class="fw-medium text-indigo">JavaScript, C/C#, PHP, Node.js, API REST</span>, bancos de dados relacionais e não relacionais.</p>
                         <p class="mb-3" style="text-align: justify">Possuo um histórico comprovado em conduzir projetos do início ao fim, desde a concepção até a entrega, garantindo a satisfação do cliente e o sucesso do negócio. Com sólida experiência em todos os ciclos de desenvolvimento, desde a análise de requisitos até a implantação e treinamento, sou um entusiasta da tecnologia e acredito na importância da colaboração e do compartilhamento de conhecimento.</p>
+                        <div class="container d-flex justify-content-end gap-3 mb-2">
+                            <a class="translate-middle rounded-pill hard-skill text-indigo p-2">#git</a>
+                            <a class="translate-middle rounded-pill hard-skill text-indigo p-2">#github</a>
+                            <a class="translate-middle rounded-pill hard-skill text-indigo p-2">#gitflow</a>
+                            <a class="translate-middle rounded-pill hard-skill text-indigo p-2">#Scrum</a>
+                            <a class="translate-middle rounded-pill hard-skill text-indigo p-2">#kanban</a>
+                            <a class="translate-middle rounded-pill hard-skill text-indigo p-2">#CI/CD</a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="row mb-3 border-bottom">
                 <h4>Experiência profissional</h4>
                 <div class="row p-3">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div>
-                                <img alt="Craos" class="img-fluid w-10" src="assets/images/exp/craos.png">
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item text-muted"><small>17/05/2011 - Atual</small></li>
-                                    <li class="list-group-item text-muted"><small><b>Cargo:</b> Gerente de tecnologia</small></li>
-                                    <li class="list-group-item text-muted"><small>Líder técnico pleno com expertise em gestão de infraestrutura, equipes e projetos de software. Foco em soluções customizadas para otimizar processos nas áreas de vendas, cobrança e atendimento. Destaque para os softwares desenvolvidos <b>in-house</b></small></li>
-                                </ul>
+                    <div class="col">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <div>
+                                    <div style="height: 43px">
+                                        <img alt="Craos" class="img-fluid w-25" src="assets/images/exp/craos.png">
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-muted"><small>Mai/2011 - Atual</small></li>
+                                        <li class="list-group-item text-muted"><small><b>Cargo:</b> Diretor e desenvolvedor</small></li>
+                                        <li class="list-group-item text-muted text-expertize-paragraf">
+                                            <p>Como gestor e desenvolvedor, pude aprimorar minhas ideias e aplicá-las numa diversificada carteira de clientes.</p>
+                                            <p>Entre os principais produtos de software, destaca-se o controle de acesso para condomínios. Uma solução abrangente, responsável pela autorização veícular, de pessoas e atendimento online em diferentes conveniências.</p>
+                                            <p>A solução é uma plataforma completa que exige o uso de muitas tecnologias (Linux, PostgreSQL, PHP, Node.JS, C, C# e Bash)</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <div>
+                                    <div style="height: 43px">
+                                        <img alt="Alphavox" class="img-fluid w-25" src="assets/images/exp/alphavox.png">
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-muted"><small>Out/2005 - Mai/2011</small></li>
+                                        <li class="list-group-item text-muted"><small><b>Cargo:</b> Gerente de tecnologia</small></li>
+                                        <li class="list-group-item text-muted text-expertize-paragraf">
+                                            <p>Líder técnico pleno com expertise em gestão de infraestrutura, equipes e projetos de software. Meu foco principal, foi em soluções personalizadas e aderentes ao negócio de vendas.</p>
+                                            <p>Os softwares que desenvolvi tiveram um papel crucial no crescimento do negócio de vendas da Alphavox, principalmente em seu estágio inicial. Graças a total integração dos equipamentos discadores de telefonia com o software desenvolvido <b>in-house</b>, o negócio se tornou um dos primeiros a garantir 100% de entrega de gravações de audio no ramo de Call Center.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <div>
+                                    <div style="height: 43px">
+                                        <img alt="Banco ibi" class="img-fluid w-25" style="margin-top: -10px" src="assets/images/exp/ibi.jpeg">
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-muted"><small>Ago/2000 - Out/2005</small></li>
+                                        <li class="list-group-item text-muted"><small><b>Cargo:</b> Analista de crédito e risco</small></li>
+                                        <li class="list-group-item text-muted text-expertize-paragraf">
+                                            <p>Abastecimento de relatórios de cobrança, monitoramento da performance e identificação de possíveis pontos de melhoria. As atividades envolviam a limpeza e tratamento de grandes bases de dados, provenientes de diversas fontes.</p>
+                                            <p>Para se obter os resultados, era necessário o conhecimento de diferentes ferramentas como Queries de SQL avançado, SPSS, SAS, Scripts e autormações usando Visual Basic e diferentes técnicas de ETL. Os Tranalhos envolviam a utilização de grandes bases de dados usando PostgreSQL e SQLite.</p></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
