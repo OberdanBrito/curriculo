@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "/index.html": {
+      "entry": [],
+      "css": [
+        "/assets/scss/custom.css",
+        "/favicon.ico"
+      ],
+      "js": []
+    }
+  },
+  "generated": {}
+}
