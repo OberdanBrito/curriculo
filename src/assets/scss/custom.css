@@ -11874,6 +11874,10 @@ textarea.form-control-lg {
   width: 60% !important;
 }
 
+.w-65 {
+  width: 65% !important;
+}
+
 .w-80 {
   width: 80% !important;
 }
@@ -11937,6 +11941,12 @@ h5, .h5 {
 
 h6, .h6 {
   color: #8540f5;
+}
+
+.whatsapp {
+  position: relative;
+  left: 88%;
+  margin-top: -12%;
 }
 
 /*# sourceMappingURL=custom.css.map */

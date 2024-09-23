@@ -8,8 +8,26 @@
     <link href="assets/scss/custom.css" rel="stylesheet">
     <style>
         @media print {
+            @page {
+                size: 310mm 420mm;
+                margin: 10mm 0 0;
+                border: 1px solid red;
+            }
+
             body {
-                max-width: 1080px;
+                width: 1100px;
+            }
+
+            .container {
+
+            }
+
+            .pagebreak {
+                page-break-before: always;
+            }
+
+            .zero-margin {
+                margin: 0;
             }
         }
     </style>
@@ -18,7 +36,7 @@
     <nav class="navbar bg-body-tertiary shadow-sm">
         <div class="container-sm justify-content-start align-items-center gap-3">
             <a class="navbar-brand" href="#">
-                <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+                <svg viewBox="0 0 24 24" height="32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9.21261 10.1737L11.2277 8.56904C12.5302 7.53179 13.1814 7.01316 13.5908 7.26931C14.0001 7.52547 13.7876 8.31864 13.3625 9.905L13.3224 10.0546C13.1691 10.6267 13.0925 10.9128 13.2272 11.1412L13.2344 11.1531C13.3741 11.3788 13.6718 11.4586 14.2673 11.6182C15.339 11.9053 15.8748 12.0489 15.9688 12.4224C15.9704 12.4286 15.9718 12.4348 15.9732 12.441C16.0557 12.8169 15.633 13.1535 14.7876 13.8267L12.7725 15.4314C11.47 16.4686 10.8187 16.9873 10.4094 16.7311C10 16.4749 10.2126 15.6818 10.6377 14.0954L10.6777 13.9459C10.8311 13.3737 10.9077 13.0876 10.773 12.8592L10.7658 12.8473C10.6261 12.6216 10.3283 12.5418 9.73283 12.3823C8.6612 12.0951 8.12538 11.9515 8.03138 11.578C8.02983 11.5718 8.02836 11.5656 8.027 11.5594C7.94449 11.1836 8.36719 10.8469 9.21261 10.1737Z" stroke="#40079c" stroke-width="1.5"></path> <path d="M7 3.33782C8.47087 2.48697 10.1786 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 10.1786 2.48697 8.47087 3.33782 7" stroke="#40079c" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
                 <a class="nav-link active" aria-current="page" href="#">Oberdan Brito</a>
                 <a class="nav-link active fs-6 fw-medium" aria-current="page" href="#"><span class="text-indigo">Desenvolvedor Pleno</span></a>
             </a>
@@ -128,7 +146,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row pb-3 mb-3 border-bottom">
+            <div class="pagebreak row pb-3 mt-3 mb-3 border-bottom">
                 <h4><i class="bi bi-code-slash"></i>Projetos</h4>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
@@ -282,7 +300,7 @@
                         <h6>Banco de dados</h6>
                         <div class="row">
                             <div class="col">
-                                <small>Relacionais: PostgreSQL, SQL Server, SQLite</small>
+                                <small>PostgreSQL, SQL Server, SQLite</small>
                             </div>
                             <div class="col-3">
                                 <div class="progress">
@@ -292,7 +310,7 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <small>NoSQL: MongDB, IndexdDB, Firestore</small>
+                                <small>MongDB, IndexdDB, Firestore</small>
                             </div>
                             <div class="col-3">
                                 <div class="progress">
@@ -302,7 +320,7 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <small>Modelagem: ER e normalização</small>
+                                <small>ER e normalização</small>
                             </div>
                             <div class="col-3">
                                 <div class="progress">
@@ -312,7 +330,7 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <small>Querys, DDL, Procedures, Triggers, Index</small>
+                                <small>SQL, DDL, DML, Procedures, Triggers, Index</small>
                             </div>
                             <div class="col-3">
                                 <div class="progress">
@@ -345,7 +363,7 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <small>Windows Server: AD, Group Policy, IIS</small>
+                                <small>AD, Group Policy, IIS</small>
                             </div>
                             <div class="col-3">
                                 <div class="progress">
@@ -355,7 +373,7 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <small>Cloud Computing: AWS, Azure, VPS</small>
+                                <small>Azure, AWS, G-Cloud, VPS</small>
                             </div>
                             <div class="col-3">
                                 <div class="progress">
@@ -389,22 +407,21 @@
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <small>Roteadores, switchs, servers, cab. estrurado</small>
-                                </div>
-                                <div class="col-3">
-                                    <div class="progress">
-                                        <small class="progress-bar w-75">75%</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col">
                                     <small>VLANs, QoS, VPNs</small>
                                 </div>
                                 <div class="col-3">
                                     <div class="progress">
-                                        <small class="progress-bar w-40">40%</small>
+                                        <small class="progress-bar w-65">65%</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <small>Routers, switchs, cabeamento estruturado</small>
+                                </div>
+                                <div class="col-3">
+                                    <div class="progress">
+                                        <small class="progress-bar w-60">60%</small>
                                     </div>
                                 </div>
                             </div>
@@ -415,31 +432,22 @@
         </div>
 
     </main>
-    <div class="container">
-        <footer>
-            <h4 class="mb-2"><i class="bi bi-chevron-double-right"></i>Inicie uma conversa</h4>
-            <div class="row">
-                <div class="col mt-1 ms-5">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item border-0"><small><i class="bi bi-telephone-forward text-indigo me-1"></i> 11 9 9581-0657</small></li>
-                        <li class="list-group-item border-0"><small><i class="bi bi-envelope-open text-indigo"></i> oberdan@craos.net</small></li>
-                        <li class="list-group-item border-0"><small><i class="bi bi-signpost text-indigo"></i> Rua George Rexroth, 706 - Diadema - São Paulo</small></li>
-                    </ul>
-                </div>
-                <div class="col d-flex justify-content-end align-items-center">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item border-0">
-                            <h5>Whatsapp</h5>
-                            <img alt="Whats: +5511995810657" class="col-5 img-fluid" src="assets/images/wa.link_3os90k.png">
-                        </li>
-                    </ul>
-                </div>
+    <footer class="container">
+        <h4 class="mb-2"><i class="bi bi-chevron-double-right"></i>Inicie uma conversa</h4>
+        <div class="row">
+            <div class="col mt-1 ms-5">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item border-0"><small><i class="bi bi-telephone-forward text-indigo me-1"></i> 11 9 9581-0657</small></li>
+                    <li class="list-group-item border-0"><small><i class="bi bi-envelope-open text-indigo"></i> oberdan@craos.net</small></li>
+                    <li class="list-group-item border-0"><small><i class="bi bi-signpost text-indigo"></i> Rua George Rexroth, 706 - Diadema - São Paulo</small></li>
+                </ul>
             </div>
-
-            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                <small>© 2024 Este documento foi desenvolvido por Oberdan Brito, usando Bootstrap. Para saber mais acesse o projeto em <a class="text-indigo-social-media" href="https://github.com/OberdanBrito/curriculo">github.com/OberdanBrito/curriculo</a></small>
-            </div>
-        </footer>
-    </div>
+        </div>
+        <div class="whatsapp w-25">
+            <h5>Whatsapp</h5>
+            <img alt="Whats: +5511995810657" class="col-5 img-fluid" src="assets/images/wa.link_3os90k.png">
+        </div>
+        <div class="text-center justify-content-center"><small>© 2024 Este documento foi desenvolvido por Oberdan Brito, usando Bootstrap.<br>Para saber mais acesse o projeto em <a class="text-indigo-social-media" href="https://github.com/OberdanBrito/curriculo">github.com/OberdanBrito/curriculo</a></small></div>
+    </footer>
 </body>
 </html>
