@@ -5,6 +5,7 @@
   "type": "module",
   "private": "true",
   "scripts": {
+    "start": "node server/server.js",
     "dev": "snowpack dev"
   },
   "keywords": [],
@@ -19,6 +20,7 @@
     "snowpack-plugin-raw": "^1.0.0"
   },
   "dependencies": {
-    "bootstrap-icons": "^1.11.3"
+    "bootstrap-icons": "^1.11.3",
+    "express": "^4.21.0"
   }
 }
